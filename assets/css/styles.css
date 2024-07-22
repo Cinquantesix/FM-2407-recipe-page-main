@@ -1,0 +1,73 @@
+:root {
+	--White: hsl(0, 0%, 100%);
+	
+	--Stone100: hsl(30, 54%, 90%);
+	--Stone150: hsl(30, 18%, 87%);
+	--Stone600: hsl(30, 10%, 34%);
+	--Stone900: hsl(24, 5%, 18%);
+	
+	--Brown800: hsl(14, 45%, 36%);
+	
+	--Rose800: hsl(332, 51%, 32%);
+	--Rose50: hsl(330, 100%, 98%);
+}
+
+@font-face {
+	font-family: 'Outfit';
+	src: url('../fonts/outfit/static/Outfit-Thin.ttf');
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: 'Outfit';
+	src: url('../fonts/outfit/static/Outfit-ExtraLight.ttf');
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: 'Outfit';
+	src: url('../fonts/outfit/static/Outfit-Light.ttf');
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: 'Outfit';
+	src: url('../fonts/outfit/static/Outfit-Regular.ttf');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Outfit';
+	src: url('../fonts/outfit/static/Outfit-SemiBold.ttf');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'Outfit';
+	src: url('../fonts/outfit/static/Outfit-Bold.ttf');
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'Outfit';
+	src: url('../fonts/outfit/static/Outfit-ExtraBold.ttf');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'Outfit';
+	src: url('../fonts/outfit/static/Outfit-Black.ttf');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'Young serif';
+	src: url('../fonts/young-serif/static/YoungSerif-Regular.ttf');
+	font-weight: 400;
+}
+
+/* ----- Global styles ----- */
+
+body {
+	font-family: 'Outfit', sans serif;
+}
